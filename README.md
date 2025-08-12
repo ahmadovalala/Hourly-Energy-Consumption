@@ -48,7 +48,7 @@ Displays the full time-series of energy consumption.
 ---
 
 ### 3. **Weekday vs Weekend Hourly Behavior**
-![Weekday Weekend Heatmap](images/weekday_weekend_heatmap.png)
+![Weekday Weekend Heatmap](images/weekday_weekend.png)
 
 **Findings:**
 - **Morning peak** between 6–8 AM every day.
