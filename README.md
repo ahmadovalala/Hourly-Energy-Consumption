@@ -29,7 +29,9 @@ It combines **exploratory data analysis (EDA)** with **time series forecasting**
 ### 1. **Overall Energy Usage Trend**
 Displays the full time-series of energy consumption.
 
-![AEP Energy Use](images/aep_energy_use.png)
+
+
+<img src="images/time_series.png" alt="AEP Energy Use" width="600"/>
 
 **Key Insights:**
 - Strong yearly seasonality.
@@ -39,7 +41,9 @@ Displays the full time-series of energy consumption.
 ---
 
 ### 2. **Monthly Average Usage with Trendline**
-![Monthly Average](images/monthly_average.png)
+
+
+<img src="images/monthly_seasonality.png" alt="Monthly Average" width="600"/>
 
 **Observations:**
 - Highest consumption in **January–February** and **July–August** (heating + cooling peaks).
@@ -48,7 +52,9 @@ Displays the full time-series of energy consumption.
 ---
 
 ### 3. **Weekday vs Weekend Hourly Behavior**
-![Weekday Weekend Heatmap](images/weekday_weekend.png)
+
+
+<img src="images/weekday_weekend.png" alt="Weekday Weekend Heatmap" width="600"/>
 
 **Findings:**
 - **Morning peak** between 6–8 AM every day.
@@ -61,7 +67,10 @@ Displays the full time-series of energy consumption.
 ## 📈 Forecasting
 
 ### Prophet Forecast vs. Actual Test Data
-![Prophet Forecast](images/prophet_forecast.png)
+
+
+<img src="images/forecast_vs_actual.png" alt="Prophet Forecast" width="600"/>
+
 
 **Model Choice:** Facebook Prophet  
 **Reason:** Handles seasonality and trend decomposition well, even with irregularities.
@@ -79,4 +88,3 @@ Displays the full time-series of energy consumption.
 
 ---
 
-## 📂 Project Structure
